@@ -1,0 +1,81 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NoIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.RepeatIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StartOverIntent",
+                    "samples": [
+                        "new game",
+                        "new trivia",
+                        "new trivia game",
+                        "new trivia quiz",
+                        "new quiz",
+                        "start",
+                        "start game",
+                        "start trivia",
+                        "start trivia game",
+                        "start trivia quiz",
+                        "start quiz",
+                        "start new game",
+                        "start new trivia",
+                        "start new trivia game",
+                        "start new trivia quiz",
+                        "start new quiz"
+                    ]
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.YesIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AnswerIntent",
+                    "samples": [
+                        "the answer is {answer}",
+                        "my answer is {answer}",
+                        "is it {answer}",
+                        "it is {answer}",
+                        "it's {answer}",
+                        "{answer} is my answer",
+                        "{answer}"
+                    ],
+                    "slots": [
+                        {
+                            "name": "answer",
+                            "type": "AMAZON.NUMBER"
+                        }
+                    ]
+                }
+            ],
+            "invocationName": "buffalo loves trivia",
+            "types": []
+        }
+    }
+}

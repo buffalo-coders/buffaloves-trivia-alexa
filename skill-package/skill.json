@@ -1,0 +1,51 @@
+{
+  "manifest": {
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-east-1:528550321621:function:ask-buffaloves-trivia-default-default-1587223246995"
+        }
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "containsAds": false,
+      "isChildDirected": false,
+      "isExportCompliant": true,
+      "usesPersonalInfo": false
+    },
+    "publishingInformation": {
+      "category": "KNOWLEDGE_AND_TRIVIA",
+      "distributionCountries": [
+        "US"
+      ],
+      "distributionMode": "PUBLIC",
+      "isAvailableWorldwide": false,
+      "locales": {
+        "en-US": {
+          "description": "Welcome to the premiere trivia game about the great city of Buffalo, NY.\n\nWhether Buffalo is your hometown or just your current tourist destination, quiz yourself about all things Buffalo. The city is more than just the home of the chicken wing, it has a long and storied history going back over 200 years. It has been the birthplace, and deathplace of US presidents, the host of a World's Fair, and is a major gateway into the United States.\n\nTest your knowledge about the great city of Buffalo, NY today!\n\n  - Say: \"Alexa, open Buffalo Loves Trivia\"\n  - Say: \"Start a new quiz\"\n  - Say: \"The answer is 1\"",
+          "examplePhrases": [
+            "Alexa open Buffalo Loves Trivia",
+            "Start a new quiz",
+            "The answer is 1"
+          ],
+          "keywords": [
+            "buffalo",
+            "buffalo, ny",
+            "buffalove",
+            "buffaloves",
+            "history",
+            "quiz",
+            "trivia"
+          ],
+          "largeIconUri": "file://assets/images/en-US/largeIcon.png",
+          "name": "Buffaloves Trivia",
+          "smallIconUri": "file://assets/images/en-US/smallIcon.png",
+          "summary": "Buffaloves Trivia is an Amazon Alexa trivia game all about Buffalo, New York."
+        }
+      },
+      "testingInstructions": "Just launch the skill."
+    }
+  }
+}

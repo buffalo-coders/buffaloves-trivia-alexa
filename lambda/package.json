@@ -1,0 +1,20 @@
+{
+  "author": "admin@buffalo-coders.org",
+  "bugs": "https://github.com/buffalo-coders/buffaloves-trivia/issues",
+  "dependencies": {
+    "alexa-sdk": "^1.0.25",
+    "ask-sdk-core": "^2.8.0",
+    "ask-sdk-model": "^1.28.0",
+    "aws-sdk": "^2.658.0"
+  },
+  "description": "Buffaloves Trivia is an Amazon Alexa trivia game all about Buffalo, New York.",
+  "homepage": "https://github.com/buffalo-coders/buffaloves-trivia",
+  "license": "Apache-2.0",
+  "main": "index.js",
+  "name": "buffaloves-trivia-alexa",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.0"
+}
