@@ -14,7 +14,7 @@ const languageString = {
   'en': {
     'translation': {
       'QUESTIONS': questions,
-      'GAME_NAME': 'Buffaloves Trivia',
+      'GAME_NAME': 'BuffaLoves Trivia',
       'HELP_MESSAGE': 'I will ask you %s multiple choice questions. Respond with the number of the answer. ' +
         'For example, say one, two, three, or four. To start a new game at any time, say, start over. ',
       'REPEAT_QUESTION_MESSAGE': 'To repeat the last question, say, repeat. ',
