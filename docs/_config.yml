@@ -7,6 +7,7 @@ repository: buffalo-coders/buffaloves-trivia-alexa
 
 markdown: kramdown
 theme: jekyll-theme-merlot
+show_downloads: "false"
 
 exclude:
   - .gitignore
