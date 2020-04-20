@@ -2,7 +2,7 @@
 layout: default
 ---
 
-Welcome to the premiere [Amazon Alexa](https://www.amazon.com/Amazon-Echo-And-Alexa-Devices/b?node=9818047011) trivia game about the great city of Buffalo, NY.
+Welcome to the homepage for the premiere [Amazon Alexa](https://www.amazon.com/Amazon-Echo-And-Alexa-Devices/b?node=9818047011) trivia game about the great [city of Buffalo, NY](https://www.google.com/maps/place/Buffalo,+NY).
 
 ## Demonstrations
 
