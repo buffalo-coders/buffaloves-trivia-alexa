@@ -1,1 +1,12 @@
+title: BuffaLoves Trivia
+email: admin@buffalo-coders.org
+description: >-
+  BuffaLoves Trivia is an Amazon Alexa trivia game all about Buffalo, New York.
+github_username: buffalo-coders
+repository: buffalo-coders/buffaloves-trivia-alexa
+
+markdown: kramdown
 theme: jekyll-theme-merlot
+
+exclude:
+  - .gitignore

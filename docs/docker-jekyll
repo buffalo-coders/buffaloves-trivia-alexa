@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+
+mkdir -p /tmp/bundler
+
+JEKYLL_VERSION="3.8.5"
+
+docker run \
+  --interactive \
+  --publish 4000:4000 \
+  --rm \
+  --tty \
+  --volume="/tmp/bundle:/usr/local/bundle" \
+  --volume="$PWD:/srv/jekyll" \
+  jekyll/jekyll:$JEKYLL_VERSION \
+  jekyll $@
