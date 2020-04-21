@@ -18,7 +18,7 @@ Here's our pitch for the [Code:Buffalo](https://www.43north.org/code-buffalo/) e
 
 {% include youtube.html id="BtMRmrBCots" %}
 
-Here's a 3 minute video showing off a typical BuffaLoves Trivia game interaction:
+Here's a longer video showing off a typical full round of BuffaLoves Trivia game interaction:
 
 {% include youtube.html id="Qy0DS2_eXEE" %}
 
