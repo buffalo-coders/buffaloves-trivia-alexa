@@ -27,7 +27,7 @@ const languageString = {
       'TRIVIA_UNHANDLED': 'Try saying a number between 1 and %s',
       'HELP_UNHANDLED': 'Say yes to continue, or no to end the game.',
       'START_UNHANDLED': 'Say start over to start a new game.',
-      'NEW_GAME_MESSAGE': 'Welcome to the new %s. ',
+      'NEW_GAME_MESSAGE': 'Welcome to %s. ',
       'WELCOME_MESSAGE': 'I will ask you %s questions, try to get as many right as you can. ' +
         'Just say the number of the answer. Let\'s begin. ',
       'NOT_VALID_GUESS': 'That\'s not a number between 1 and %s. Please try again.',
@@ -36,8 +36,8 @@ const languageString = {
       'CORRECT_ANSWER_MESSAGE': 'The correct answer is %s: %s. ',
       'ANSWER_IS_MESSAGE': 'That answer is ',
       'TELL_QUESTION_MESSAGE': '<break time="1s"/>Question %s: %s ',
-      'GAME_OVER_MESSAGE': 'Your final score is %s/%s. Thank you for playing! If you play again, I\'ll give you a new set of questions.',
-      'SCORE_IS_MESSAGE': 'Your score is %s/%s. ',
+      'GAME_OVER_MESSAGE': 'Your final score is %s out of %s. Thank you for playing! If you play again, I\'ll give you a new set of questions.',
+      'SCORE_IS_MESSAGE': 'Your score is %s out of %s. ',
     },
   },
 };
@@ -177,7 +177,7 @@ function handleUserGuess(userGaveUp) {
     let repromptText = this.t('TELL_QUESTION_MESSAGE', questionIndexForSpeech.toString(), spokenQuestion);
 
     for (let i = 0; i < ANSWER_COUNT; i++) {
-      repromptText += `${i + 1}. ${roundAnswers[i]}. `;
+      repromptText += `${i + 1}) ${roundAnswers[i]}, `;
     }
 
     speechOutput += 'You guessed ' + userGuess + '. ';
