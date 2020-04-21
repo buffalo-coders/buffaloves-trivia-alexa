@@ -9,7 +9,8 @@ Welcome to the homepage for the premiere [Amazon Alexa](https://www.amazon.com/A
 Test your knowledge about the great city of Buffalo, NY today! Get yourself near an Amazon Alexa device and..
 
   * Say: "Alexa, play BuffaLoves Trivia"
-  * Say: "start a new quiz"
+
+  * Say: "Start a new quiz!"
 
 ## Demonstrations
 
@@ -23,7 +24,7 @@ Here's our elevator pitch for the [Code:Buffalo](https://www.43north.org/code-bu
 
 ## Why Alexa?
 
-Amazon Alexa is available on over [one hundred million](https://www.cnet.com/news/amazon-has-sold-more-than-100-million-alexa-devices/) devices around the world, giving us access to a huge number of potential users. Alexa is powered by the Amazon [cloud of computing services](https://aws.amazon.com/products/), granting it access to a wealth of other on-demand, infinitely scalable services to potentially increase BuffaLoves Trivia's capabilities. And, last but not least, it was just fun to pick up this technology and try to do something useful with it! [#buffalove](https://twitter.com/search?q=%23buffalove)
+Amazon Alexa is available on over [one hundred million](https://www.cnet.com/news/amazon-has-sold-more-than-100-million-alexa-devices/) devices around the world, giving us access to a huge number of potential users. Alexa is powered by the Amazon [cloud of computing services](https://aws.amazon.com/products/), granting it access to a wealth of other on-demand, infinitely scalable services to potentially increase BuffaLoves Trivia's capabilities. And, last but not least, it was just fun to pick up this technology and try to do something useful with it!
 
 ## Why Buffalo?
 
@@ -34,3 +35,7 @@ No matter if you call it The Queen City, The City of Good Neighbors, The Nickel 
 ## Origin Story
 
 This project was produced as part of a [Hackathon](https://en.wikipedia.org/wiki/Hackathon) called [Code:Buffalo](https://www.43north.org/code-buffalo/) sponsored by our good friends over at [43 North](https://www.43north.org/), [Techstars](https://www.techstars.com/), [M&T Bank](https://www.mtb.com/home-page), [ACV Auctions](https://www.acvauctions.com/), and the [University at Buffalo](http://www.buffalo.edu/). Thanks for inspiring us to take on this project!
+
+## Challenges
+
+The Alexa stack was new and challenging technology for us to use. There's a real disconnect between development and testing when you have to install the application onto a 3rd party service. Also, when other technological components are added in like Amazon serverless Lambda functions, and a future serverless NoSQL database for leaderboard checking.. it really was a lot of new things to learn simultaneously.
