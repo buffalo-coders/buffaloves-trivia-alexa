@@ -8,8 +8,8 @@ Welcome to the homepage for the premiere [Amazon Alexa](https://www.amazon.com/A
 
 Test your knowledge about the great city of Buffalo, NY today! Get yourself near an Amazon Alexa device and..
 
-  * Say: "Alexa, open BuffaLoves Trivia"
-  * Say: "Start a new quiz"
+  * Say: "Alexa, play BuffaLoves Trivia"
+  * Say: "start a new quiz"
 
 ## Demonstrations
 
