@@ -2,7 +2,7 @@ const Alexa = require('alexa-sdk');
 const questions = require('./questions');
 
 const ANSWER_COUNT = 4;
-const GAME_LENGTH = 2;
+const GAME_LENGTH = 5;
 const GAME_STATES = {
   TRIVIA: '_TRIVIAMODE',
   START: '_STARTMODE',
