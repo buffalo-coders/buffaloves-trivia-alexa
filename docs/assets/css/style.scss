@@ -9,6 +9,19 @@
  * but there are some elements I'd rather just
  * hide..
  */
-#forkme_banner {display: none;}
-a#forkme_banner {display: none;}
-footer>p{display: none;}
+#forkme_banner {
+  display: none;
+}
+
+a#forkme_banner {
+  display: none;
+}
+
+footer>p {
+  display: none;
+  padding-bottom: 2em;
+}
+
+footer>span.octocat {
+  margin-top: 2em;
+}
