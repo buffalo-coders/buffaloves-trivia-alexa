@@ -26,9 +26,9 @@
         "en-US": {
           "description": "Welcome to the homepage for the premiere Amazon Alexa trivia game about the great city of Buffalo, NY.\n\nWhether Buffalo is your hometown or just your current tourist destination, play the Buffaloves Trivia game to quiz yourself about all things Buffalo. The city is more than just the home of the chicken wing, it has a long and storied history going back over 200 years. It has been the birthplace, and deathplace, of US presidents, the host of a World's Fair, and is a major gateway into the United States.\n\nNo matter if you call it The Queen City, The City of Good Neighbors, The Nickel City, Queen City of the Lakes, or City of Light, we all know it as our Buffalo.\n\nTest your knowledge about the great city of Buffalo, NY today! Get yourself near an Amazon Alexa device and..\n\n  - Say: \"Alexa, open BuffaLoves Trivia\"\n  - Say: \"Start a new quiz\"\n  - Say: \"The answer is 1\"",
           "examplePhrases": [
-            "Alexa open BuffaLoves Trivia",
-            "Start a new quiz",
-            "The answer is 1"
+            "Alexa play BuffaLoves Trivia",
+            "start a new game",
+            "start game"
           ],
           "keywords": [
             "buffalo",
