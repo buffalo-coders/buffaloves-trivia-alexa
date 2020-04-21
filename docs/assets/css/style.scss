@@ -3,6 +3,21 @@
 
 @import "{{ site.theme }}";
 
+.header-level-1:after {
+  content: url(../images/buffalo.png);
+  display: inline-block;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.header-level-1:before {
+  content: url(../images/buffalo.png);
+  display: inline-block;
+  padding-left: 1em;
+  padding-right: 1em;
+  transform: scaleX(-1);
+}
+
 /*
  * All due respect for a nice theme from Merlot:
  * https://github.com/pages-themes/merlot
