@@ -36,8 +36,8 @@ const languageString = {
       'CORRECT_ANSWER_MESSAGE': 'The correct answer is %s: %s. ',
       'ANSWER_IS_MESSAGE': 'That answer is ',
       'TELL_QUESTION_MESSAGE': '<break time="1s"/>Question %s: %s ',
-      'GAME_OVER_MESSAGE': 'Your final score is %s. Thank you for playing! If you play again, I\'ll give you a new set of questions.',
-      'SCORE_IS_MESSAGE': 'Your score is %s. ',
+      'GAME_OVER_MESSAGE': 'Your final score is %s/%s. Thank you for playing! If you play again, I\'ll give you a new set of questions.',
+      'SCORE_IS_MESSAGE': 'Your score is %s/%s. ',
     },
   },
 };
@@ -163,7 +163,7 @@ function handleUserGuess(userGaveUp) {
   if (this.attributes['currentQuestionIndex'] === (GAME_LENGTH - 1)) {
     speechOutput = 'You guessed ' + userGuess + '. ';
     speechOutput += userGaveUp ? '' : this.t('ANSWER_IS_MESSAGE');
-    speechOutput += speechOutputAnalysis + this.t('GAME_OVER_MESSAGE', currentScore.toString());
+    speechOutput += speechOutputAnalysis + this.t('GAME_OVER_MESSAGE', currentScore.toString(), GAME_LENGTH.toString());
 
     this.response.speak(speechOutput);
     this.emit(':responseReady');
@@ -182,7 +182,7 @@ function handleUserGuess(userGaveUp) {
 
     speechOutput += 'You guessed ' + userGuess + '. ';
     speechOutput += userGaveUp ? '' : this.t('ANSWER_IS_MESSAGE');
-    speechOutput += speechOutputAnalysis + this.t('SCORE_IS_MESSAGE', currentScore.toString()) + repromptText;
+    speechOutput += speechOutputAnalysis + this.t('SCORE_IS_MESSAGE', currentScore.toString(), GAME_LENGTH.toString()) + repromptText;
 
     Object.assign(this.attributes, {
       'speechOutput': repromptText,
