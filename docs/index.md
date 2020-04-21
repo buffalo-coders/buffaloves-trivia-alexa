@@ -14,17 +14,17 @@ Test your knowledge about the great city of Buffalo, NY today! Get yourself near
 
 ## Demonstrations
 
+Here's our pitch for the [Code:Buffalo](https://www.43north.org/code-buffalo/) event:
+
+{% include youtube.html id="BtMRmrBCots" %}
+
 Here's a 3 minute video showing off a typical BuffaLoves Trivia game interaction:
 
-{% include youtube.html id="dQw4w9WgXcQ" %}
-
-Here's our elevator pitch for the [Code:Buffalo](https://www.43north.org/code-buffalo/) event:
-
-{% include youtube.html id="dQw4w9WgXcQ" %}
+{% include youtube.html id="Qy0DS2_eXEE" %}
 
 ## Why Alexa?
 
-Amazon Alexa is available on over [one hundred million](https://www.cnet.com/news/amazon-has-sold-more-than-100-million-alexa-devices/) devices around the world, giving us access to a huge number of potential users. Alexa is powered by the Amazon [cloud of computing services](https://aws.amazon.com/products/), granting it access to a wealth of other on-demand, infinitely scalable services to potentially increase BuffaLoves Trivia's capabilities. And, last but not least, it was just fun to pick up this technology and try to do something useful with it!
+Amazon Alexa is available on over [one hundred million](https://www.cnet.com/news/amazon-has-sold-more-than-100-million-alexa-devices/) devices around the world, giving us access to a huge number of potential users. Alexa is powered by the Amazon [cloud of computing services](https://aws.amazon.com/products/), providing a wealth of other on-demand, infinitely scalable services to potentially increase BuffaLoves Trivia's capabilities. And, last but not least, it was just fun to pick up this technology and try to do something useful with it!
 
 ## Why Buffalo?
 
