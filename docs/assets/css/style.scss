@@ -3,5 +3,12 @@
 
 @import "{{ site.theme }}";
 
+/*
+ * All due respect for a nice theme from Merlot:
+ * https://github.com/pages-themes/merlot
+ * but there are some elements I'd rather just
+ * hide..
+ */
 #forkme_banner {display: none;}
 a#forkme_banner {display: none;}
+footer>p{display: none;}
