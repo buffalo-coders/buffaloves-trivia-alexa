@@ -2,7 +2,7 @@
 layout: default
 ---
 
-Welcome to the homepage for the premiere [Amazon Alexa](https://www.amazon.com/Amazon-Echo-And-Alexa-Devices/b?node=9818047011) trivia game about the great [city of Buffalo, NY](https://www.google.com/maps/place/Buffalo,+NY).
+Welcome to the homepage for the premier [Amazon Alexa](https://www.amazon.com/Amazon-Echo-And-Alexa-Devices/b?node=9818047011) trivia game about the [Great City of Buffalo](https://www.google.com/maps/place/Buffalo,+NY) This brand-new skill can be used on any Amazon-enabled device or Alexa-installed app. Supporting our local Western New York community by bringing people together with fun and facts, BuffaLoves Trivia brings you endless fun right from your couch.
 
 ## How to Play?
 
@@ -11,6 +11,8 @@ Test your knowledge about the great city of Buffalo, NY today! Get yourself near
   * Say: "Alexa, play BuffaLoves Trivia"
 
   * Say: "Start a new quiz!"
+
+Trivia categories include people, places, sports, events or venues, and restaurants and local food. We currently have a set of 50 questions, but hope to add many more soon!
 
 ## Demonstrations
 
