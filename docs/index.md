@@ -14,7 +14,7 @@ Test your knowledge about the great city of Buffalo, NY today! Get yourself near
 
 Trivia categories include people, places, sports, events or venues, and restaurants and local food. We currently have a set of 50 questions, but hope to add many more soon!
 
-(**NOTE:** At the current time the BuffaLoves Trivia skill is still in the certification process by Amazon, and so it is not yet globally available. Please check out the videos of example gameplay below.)
+Go to the [Amazon store](https://www.amazon.com/dp/B087JTJ77D/) and [BuffaLoves Trivia](https://www.amazon.com/dp/B087JTJ77D/) game!
 
 ## Demonstrations
 
