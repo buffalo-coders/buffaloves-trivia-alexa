@@ -5,7 +5,7 @@
     "alexa-sdk": "^1.0.25",
     "ask-sdk-core": "^2.8.0",
     "ask-sdk-model": "^1.28.0",
-    "aws-sdk": "^2.658.0"
+    "aws-sdk": "^2.814.0"
   },
   "description": "BuffaLoves Trivia is an Amazon Alexa trivia game all about Buffalo, New York.",
   "homepage": "https://github.com/buffalo-coders/buffaloves-trivia",
